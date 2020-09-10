@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.heading {
+    display:flex;
+    justify-content: left;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 64px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 100px 30px 100px;
+}
+
+.cardss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardss :hover {
+    transform: scale(1.05);
+    transition: all ease 0.3s;
+
+}
+
+.card {
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 30px 30px 40px #4C8af426;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    
+}
+
+.cardcontent {
+    margin: 0 20px 0 30px;
+}
+
+.card :hover {
+    transform: none;
+}
+
+.topimage {
+    width: 500px;
+    height: 280px;
+    background:   transparent url('topimage.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom : 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.tag {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 37px;
+    background: #4C8AF4 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+}
+
+.titletext {
+    text-align: left;
+    font-weight:500;
+    font-size: 24px;
+    color: #232323;
+    opacity: 1;
+    
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.content {
+    
+    font-weight: 300;
+    font-size: 20px;
+    color: #232323;
+    opacity: 1;
+    text-align: left;
+    margin-top: 0px;
+    padding: 10px;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+.deets {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.photo {
+    height: 58px;
+    width: 58px;
+    background: transparent url('../../logo.svg') 0% 0% no-repeat padding-box;
+    border: 3px solid #4C8AF4;
+    border-radius: 50%;
+}
+.name {
+    text-align: left;
+    font-weight:500;
+    font-size: 20px;
+    margin: 0px;
+
+}
+
+.post {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.date {
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}

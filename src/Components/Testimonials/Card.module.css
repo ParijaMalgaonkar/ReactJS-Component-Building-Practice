@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*For the Testimonials container:  */
+
+.heading {
+    display:flex;
+    justify-content: left;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 64px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 100px 30px 100px;
+}
+
+.cardss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardss :hover {
+    transform: scale(1.05);
+    transition: all ease 0.3s;
+
+}
+
+/*For every individual card:  */
+
+.card {
+    height: 667px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 30px 30px 40px #4C8af426;
+    font: normal normal normal 18px/35px Poppins;
+    padding: 30px 30px;
+    margin: 10px;
+}
+
+.card :hover {
+    transform: none;
+}
+
+.titletext {
+    text-align: left;
+    font-weight:500;
+    font-size: 24px;
+    color: #232323;
+    opacity: 1;
+}
+
+.content {
+    font-weight: 300;
+    font-size: 18px;
+    color: #232323;
+    opacity: 1;
+    text-align: justify;
+    margin-top: 0px;
+    padding-right: 20px;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+.photo {
+    height: 64px;
+    width: 64px;
+    background: transparent url('../../logo.svg') 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+}
+.name {
+    text-align: left;
+    font-weight:500;
+    font-size: 24px;
+    margin: 0px;
+    font: normal normal medium 24px/30px Poppins;
+
+}
+
+.post {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.date {
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+
+.deets {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tagcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.tags {
+    width: 72px;
+    height: 36px;
+    background: #4C8AF4 0% 0% no-repeat padding-box;
+    border: 1px solid #4C8AF4;
+    opacity: 1;
+    margin: 2px;
+}
+
+.tag2 {
+    width: 96px;
+    height: 36px;
+    background: #4C8AF4 0% 0% no-repeat padding-box;
+    border: 1px solid #4C8AF4;
+    opacity: 1;
+    margin: 2px;
+
+}
+
+.tag3 {
+    width: 72px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #232323;
+    opacity: 1;
+    margin: 2px;
+}
