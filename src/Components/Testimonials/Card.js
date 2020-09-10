@@ -14,10 +14,10 @@ function Card() {
             </div>
             <h2 className = {styles.name}>Helped me improve my chances</h2>
             <div className = {styles.tagcont}>
-                <div className = {styles.tags}></div>
-                <div className = {styles.tag2}></div>
-                <div className = {styles.tag3}></div>
-                <div className = {styles.tag3}></div>
+                <div className = {styles.tags}><h3 className ={styles.post}>Tag1</h3></div>
+                <div className = {styles.tag2}><h3 className ={styles.post}>Tag1</h3></div>
+                <div className = {styles.tag3}><h3 className ={styles.post}>Tag1</h3></div>
+                <div className = {styles.tag3}><h3 className ={styles.post}>Tag1</h3></div>
             </div>
             <h3 className = {styles.content}>Lorem ipsum dolor sit amet, consectetur dipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</h3>
             <h3 className = {styles.post}>Read More <Icon className="long-arrow-alt-right" /></h3>

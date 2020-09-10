@@ -124,6 +124,9 @@
 
 }
 .tags {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 72px;
     height: 36px;
     background: #4C8AF4 0% 0% no-repeat padding-box;
